@@ -27,7 +27,7 @@ namespace LaurensKruis.AdditionalColliders
             host = new GameObject($"{gameObject.name} - Collider Host");
             host.transform.parent = transform;
 
-            Generate();
+            colliders = Generate();
             
             InvalidateMaterial();
             InvalidateIsTrigger();
