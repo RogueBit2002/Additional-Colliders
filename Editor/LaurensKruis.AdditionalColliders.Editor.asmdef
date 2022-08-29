@@ -1,0 +1,18 @@
+{
+    "name": "LaurensKruis.AdditionalColliders.Editor",
+    "rootNamespace": "LaurensKruis.AdditionalColliders.Editor",
+    "references": [
+        "GUID:3dafbcf3e6364ca4097b65c1979dca79"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

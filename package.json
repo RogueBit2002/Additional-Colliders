@@ -1,0 +1,14 @@
+{
+	"name": "me.laurens.additionalcolliders",
+	"version": "1.0.0",
+	"displayName": "Additional Colliders",
+	"description": "Adds additional colliders to unity",
+	"author": {
+	  "name": "Laurens Kruis",
+	  "email": "laurens@kruis.com",
+	  "url": "http://www.laurens.me"
+	},
+	"dependencies": {
+		"me.laurens.csharputil": "1.0.0"
+	}
+  }
