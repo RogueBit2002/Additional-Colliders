@@ -34,6 +34,18 @@ namespace LaurensKruis.AdditionalColliders
             InvalidateCenter();
         }
 
+        protected virtual void OnEnable()
+        {
+            foreach(Collider collider in colliders)
+                collider.enabled = true;
+        }
+
+        protected virtual void OnDisable()
+        {
+            foreach (Collider collider in colliders)
+                collider.enabled = false;
+        }
+
         protected virtual void OnValidate()
         {
             if (!Application.isPlaying)
