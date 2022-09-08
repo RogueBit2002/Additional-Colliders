@@ -7,6 +7,7 @@ using LaurensKruis.AdditionalColliders;
 namespace LaurensKruis.AdditionalColliders.Editor
 {
     [CustomEditor(typeof(AdditionalCollider), true)]
+    [CanEditMultipleObjects]
     public class AdditionalColliderEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
