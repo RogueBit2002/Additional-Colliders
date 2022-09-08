@@ -36,7 +36,7 @@ namespace LaurensKruis.AdditionalColliders
 
         protected virtual void OnEnable()
         {
-            foreach(Collider collider in colliders)
+            foreach (Collider collider in colliders)
                 collider.enabled = true;
         }
 
@@ -45,6 +45,7 @@ namespace LaurensKruis.AdditionalColliders
             foreach (Collider collider in colliders)
                 collider.enabled = false;
         }
+
 
         protected virtual void OnValidate()
         {
