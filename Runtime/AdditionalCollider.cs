@@ -45,7 +45,11 @@ namespace LaurensKruis.AdditionalColliders
             foreach (Collider collider in colliders)
                 collider.enabled = false;
         }
-
+        
+        protected virtual void OnDestroy()
+        {
+            Destroy(host);
+        }
 
         protected virtual void OnValidate()
         {
